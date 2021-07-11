@@ -1,0 +1,43 @@
+@media (max-width: 1200px)
+    .service .accordion
+        justify-content: center
+@media (max-width: 991px)
+    .service
+        min-height: 340px
+    .service .accordion_item__content
+        font-size: 13px
+        padding: 10px
+    .service .accordion_item__trigger
+        font-size: 18px
+@media (max-width: 767px)
+    .service
+        min-height: 325px
+        padding: 25px
+    .service .accordion
+        margin-top: 45px
+    .service .accordion_item__trigger
+        font-size: 16px
+        padding: 10px
+        padding-left: 15px
+        margin-bottom: 10px
+    .service .accordion_item__content
+        font-size: 15px
+
+@media (max-width: 425px)
+    .service
+        padding: 10px 10px 50px 10px
+    .service .accordion
+        justify-content: center
+        &_item
+            width: 100%
+            margin-bottom: -20px
+            &::before
+                width: 4px
+                min-height: 65px
+            &__trigger
+                padding: 12px
+                font-size: 16px
+            &__content
+                font-size: 15px
+                margin-bottom: 5px
+

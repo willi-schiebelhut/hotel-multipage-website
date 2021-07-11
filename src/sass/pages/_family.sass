@@ -1,0 +1,461 @@
+.promo_room2
+    background: url(../img/pages/family/bg.jpg) center (center/cover) no-repeat
+    padding: 58px 50px 0 22px
+    min-height: 750px
+    position: relative
+    .phone
+        display: none
+    .hamburger
+        display: none
+    .logo img
+        width: 193px
+    .header
+        display: flex
+        align-items: center
+        justify-content: space-between
+        &__menu
+            display: flex
+            justify-content: flex-end
+            list-style-type: none
+            margin-bottom: 0
+            padding-left: 0
+            &_item
+                margin-right: 52px
+                &:last-child
+                    margin-right: 0
+            &_link
+                text-decoration: none
+                color: #232932
+                font-size: 18px
+                font-weight: 700
+                text-transform: uppercase
+                &::after
+                        content: ''
+                        display: block
+                        width: 0%
+                        height: 3px
+                        background-color: #4cb1ff
+                        transition: 0.4s all
+                        margin-top: 9px
+                &:hover
+                    color: #4cb1ff
+                    &::after
+                        width: 100%
+    .main
+        display: flex
+        justify-content: center
+        &__label
+            position: absolute
+            display: block
+            background-color: rgba(255, 255, 255, 0.89)
+            width: 42%
+            height: 750px
+            right: 0
+            top: 0
+        &__wrapper
+            display: flex
+            flex-direction: column
+            align-items: center
+        &__title
+            margin-top: 110px
+            text-align: center
+            margin-bottom: 44px
+            font-size: 44px
+            font-weight: 500
+            letter-spacing: -0.21px
+            text-transform: uppercase
+            span
+                font-size: 102px
+                letter-spacing: -0.62px
+.info
+    padding: 40px
+    background-color: #fafafa
+    &__descr
+        max-width: 700px
+        min-height: auto
+        border-radius: 4px
+    &__text
+        color: #232932
+        font-size: 16px
+        font-weight: 400
+        line-height: 21px
+    &__price
+        font-size: 24px
+        font-weight: 500
+        line-height: 30px
+        margin-top: 15px
+        span
+            font-size: 36px
+            font-weight: 900
+            color: #4cb1ff
+.questions
+    min-height: 405px
+    padding: 35px
+    &__title
+        text-align: center
+    &__wrapper
+        margin-top: 59px
+        display: flex
+        flex-wrap: wrap
+        align-items: center
+    &__item
+        width: 30%
+        margin-top: 52px
+        height: auto
+        display: flex
+        flex-direction: column
+        justify-content: center
+        margin-right: 10px
+        &:nth-child(1)
+            margin-top: 0
+        &:nth-child(2)
+            margin-top: 0
+        &:nth-child(3)
+            margin-top: 0
+        &::before
+            content: ''
+            width: 5px
+            position: absolute
+            display: block
+            height: 85px
+            background-color: #4cb1ff
+            margin-top: 25px
+    &__text
+        margin-top: 5px
+        margin-left: 15px
+        color: #232932
+        font-size: 16px
+        font-weight: 400
+        line-height: 22px
+    &__minititle
+        margin-left: 15px
+        color: #232932
+        font-size: 14px
+        font-weight: 700
+        line-height: 20px
+        text-transform: uppercase
+.consultation
+    min-height: 660px
+    padding: 60px 256px 150px 256px
+    background: url(../img/section_3_bg.jpg) center (center/cover) no-repeat
+    &__wrapper
+        display: flex
+        justify-content: center
+    &__title
+        text-align: center
+        margin-bottom: 30px
+    &__button
+        width: 212px
+        height: 90px
+        border-radius: 4px
+        background-color: #4cb1ff
+        color: #ffffff
+        border: none
+        font-size: 14px
+        font-weight: 700
+        text-transform: uppercase
+        margin-top: 25px
+    form
+        max-width: 800px
+        max-height: 550px
+        border-radius: 4px
+        background-color: #ffffff
+        padding: 70px
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: center
+        position: relative
+        /** &::before
+            content: ''
+            display: block
+            position: absolute
+            left: -30px
+            top: -30px
+            width: 137px
+            height: 149px
+            background-color: #e5ebef
+            z-index: 1
+        /** &::after
+            content: ''
+            display: block
+            position: absolute
+            right: -30px
+            bottom: -30px
+            width: 137px
+            height: 149px
+            background-color: #e5ebef
+            z-index: 1 **/
+        input
+            width: 332px
+            height: 71px
+            border-radius: 3px
+            border: 1px solid #ebebeb
+            background-color: #ffffff
+            margin-top: 10px
+            margin-bottom: 10px
+            padding: 7px
+            color: #7b7b7b
+            font-size: 16px
+            font-weight: 400
+        label
+            font-weight: 500
+        select
+            width: 332px
+            height: 71px
+            border-radius: 3px
+            border: 1px solid #ebebeb
+            background-color: #ffffff
+            margin-top: 10px
+            margin-bottom: 10px
+            padding: 7px
+            color: #7b7b7b
+            font-size: 16px
+            font-weight: 400
+
+.map
+    position: relative
+    &__info
+        padding: 126px 20px 139px 85px
+        width: 40%
+        height: 100%
+        position: absolute
+        right: 0
+        top: 0
+        background-color: rgba(255,255,255,0.9)
+    &__title
+        color: #232932
+        font-size: 48px
+        font-weight: 700
+        letter-spacing: -0.48px
+        margin-left: -2px
+    &__subtitle
+        color: #232932
+        font-size: 18px
+        font-weight: 700
+        margin-top: 40px
+        text-transform: uppercase
+    &__wrapper
+        display: flex
+        flex-direction: column
+        margin-top: 20px
+        min-height: 123px
+        justify-content: space-between
+    &__addr
+        align-items: center
+        display: flex
+        font-size: 18px
+        font-weight: 400
+        &::before
+            content: ''
+            display: block
+            width: 25px
+            height: 26px
+            background: url('../icons/pin.svg') center (center/cover) no-repeat
+            margin-right: 20px
+    &__phone
+        align-items: center
+        display: flex
+        font-size: 18px
+        font-weight: 400
+        text-decoration: none
+        align-items: center
+        color: #232932
+        &::before
+            content: ''
+            display: block
+            width: 25px
+            height: 26px
+            background: url('../icons/phone-alt-solid.svg') center (center/cover) no-repeat
+            align-items: center
+            margin-right: 20px
+    &__schedule
+        align-items: center
+        display: flex
+        font-size: 18px
+        font-weight: 400
+        text-decoration: none
+        align-items: center
+        color: #232932
+        &::before
+            content: ''
+            display: block
+            width: 25px
+            height: 26px
+            background: url('../icons/005-clock.svg') center (center/cover) no-repeat
+            align-items: center
+            margin-right: 20px
+
+@media (max-width: 991px)
+
+    .promo_page
+        min-height: 610px
+        &__logo
+            img
+                width: 120px
+    .promo_page .main__title
+        font-size: 38px
+        span
+            font-size: 80px
+    .questions
+        &__wrapper
+            justify-content: center
+            &_text
+                display: flex
+                flex-direction: column
+                justify-content: center
+                margin-top: 25px
+                margin-right: 10px
+        &__item
+            width: 48%
+            margin-right: 0
+            margin-top: 0
+            justify-content: center
+        &__minititle
+            
+    .consultation
+        padding: 40px
+        form
+            max-width: 700px
+    .map
+        &__info
+            max-width: 40%
+            padding: 15px
+        &__title
+            font-size: 40px
+        &__subtitle
+            font-size: 15px
+            margin-top: 15px
+        &__addr
+            font-size: 15px
+            &::before
+                margin-right: 10px
+                width: 20px
+                height: 21px
+        &__phone
+            font-size: 15px
+            &::before
+                margin-right: 10px
+                width: 20px
+                height: 21px
+        &__schedule
+            font-size: 15px
+            &::before
+                margin-right: 10px
+                width: 20px
+                height: 21px
+
+@media (max-width: 767px)
+    .promo_room2
+        min-height: 580px
+    .promo_room2 .main__title
+        font-size: 30px
+        span
+            font-size: 70px
+    .info
+        padding: 25px
+    .questions
+        padding: 20px
+        &__title
+            margin-top: 25px
+        &__item
+            width: 50%
+        &__wrapper
+            margin-top: 30px
+    .map
+        &__title
+            font-size: 30px
+        &__subtitle
+            font-size: 12px
+        &__addr
+            font-size: 14px
+            &::before
+                margin-right: 10px
+                width: 15px
+                height: 15px
+        &__phone
+            font-size: 14px
+            &::before
+                margin-right: 10px
+                width: 15px
+                height: 15px
+        &__schedule
+            font-size: 14px
+            &::before
+                margin-right: 10px
+                width: 15px
+                height: 15px
+
+@media (max-width: 576px)
+    .promo_room2
+        min-height: 440px
+        padding: 20px
+    .promo_room2 .main__title
+        font-size: 28px
+        span
+            font-size: 55px
+    .info
+        padding: 15px
+        &__price
+            span
+                font-size: 26px
+    .questions
+        padding: 10px
+        &__item
+            width: 100%
+            &::before
+                height: 65px
+    .consultation
+        background: none
+        background-color: #f1f9ff
+        form
+            padding: 20px
+            input
+                height: 42px
+            select
+                height: 42px
+        &__button
+            height: 50px
+    .map
+        &__info
+            top: 50%
+            min-width: 100%
+            height: 50%
+        &__title
+            font-size: 27px
+        &__wrapper
+            min-height: 0
+        &__addr
+            margin-bottom: 12px
+        &__phone
+            margin-bottom: 12px
+
+@media (max-width: 425px)
+    .promo_room2
+        padding: 20px
+        min-height: 500px
+    .promo_room2 .main__title
+        font-size: 18px
+        span
+            font-size: 48px
+            letter-spacing: -0.52px
+    .info
+        padding: 15px 10px 15px 10px
+        &__text
+            font-size: 15px
+        &__price
+            display: flex
+            flex-direction: column
+    .gallery
+        a
+            margin: 0
+            margin-bottom: 5px
+            max-width: 100%
+    .consultation
+        padding: 20px 5px 10px 5px
+        form
+            padding: 20px 10px 20px 10px
+            input
+                width: 273px
+            select
+                width: 273px

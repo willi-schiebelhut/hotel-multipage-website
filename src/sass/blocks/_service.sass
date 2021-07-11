@@ -1,0 +1,75 @@
+.service
+    min-height: 480px
+    padding: 50px 0 90px 38px    
+    &__title
+        text-align: center
+    .accordion
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+        margin-top: 59px
+        &_item
+            align-items: center
+            position: relative
+            width: 50%
+            margin-bottom: 20px
+            max-width: 363px
+            padding: 10px
+            position: relative
+            border: none
+            &:before
+                content: ''
+                position: absolute
+                display: block
+                width: 6px
+                height: 65px
+                background-color: #4cb1ff
+            &__input
+                position: absolute
+                top: 0
+                left: 0
+                opacity: 0
+            &__trigger
+                display: block
+                padding: 20px
+                color: #232932
+                font-size: 14px
+                font-weight: 700
+                line-height: 20px
+                text-transform: uppercase
+                border-radius: 5px
+                cursor: pointer
+                &::after
+                    content: ''
+                    background: url('../../icons/chevron-down-solid.svg') center (center/cover) no-repeat
+                    display: block
+                    width: 15px
+                    height: 15px
+                    transition: .3s all
+                    margin-top: 5px
+            &__content
+                display: none
+                padding: 20px
+                border-top: none
+                height: auto
+                z-index: 99
+                background-color: #fff
+                font-size: 16px
+                font-weight: 500
+                line-height: 22px
+                cursor: pointer
+                    
+
+    .accordion_item__input:checked ~ .accordion_item__trigger
+        &::after
+            content: ''
+            transform: rotateX(180deg)
+            
+
+
+    .accordion_item__input:checked ~ .accordion_item__content
+        display: flex
+        justify-content: center
+        align-items: center
+
+

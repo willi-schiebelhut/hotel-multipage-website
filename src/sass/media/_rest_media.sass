@@ -1,0 +1,70 @@
+@media (max-width: 1400px)
+    .rest
+        padding: 240px 45px 81px 38px
+@media (max-width: 1200px)
+    .rest
+        padding: 190px 45px 81px 38px
+        min-height: 620px
+        &__descr
+            p
+                font-size: 23px
+        &__inner
+            &::before
+                width: 107px
+                height: 119px
+            &::after
+                width: 107px
+                height: 119px
+
+@media (max-width: 991px)
+    .rest
+        display: flex
+        padding: 110px 40px 40px 40px
+        &__wrapper
+            flex-direction: column
+        &__descr
+            max-width: 100%
+            margin-right: 0
+        &__inner
+            max-width: 100%
+            margin-top: 60px
+
+@media (max-width: 767px)
+    .rest
+        padding: 145px 40px 40px 40px
+        &__descr p
+            font-size: 18px
+
+@media (max-width: 576px)
+    .rest
+        padding: 145px 20px 20px 20px
+        &__inner
+            margin-top: 40px
+            &::before
+                width: 77px
+                height: 89px
+            &::after
+                width: 77px
+                height: 89px
+        &__descr p
+            font-size: 15px
+
+@media (max-width: 425px)
+    .rest
+        min-height: 490px
+        padding: 30px 10px 30px 10px
+        &__descr
+            p
+                text-align: center
+                font-size: 18px
+        &__inner
+            &::before
+                width: 45px
+                height: 45px
+                left: -10px
+                top: -7px
+            &::after
+                width: 45px
+                height: 45px
+                right: -10px
+                bottom: -7px

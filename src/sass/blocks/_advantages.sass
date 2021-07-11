@@ -1,0 +1,84 @@
+.advantages
+    min-height: 958px
+    background: url('../img/section_3_bg.jpg') center (center/cover) no-repeat
+    padding: 108px 45px 209px 38px
+    &__title
+        color: #232932
+        font-size: 48px
+        font-weight: 700
+        letter-spacing: -0.48px
+        text-align: center
+    &__subtitle
+        text-align: center
+        color: #232932
+        font-size: 18px
+        font-weight: 400
+        margin-top: 25px
+        margin-top: 25px
+        span
+            font-weight: 700
+    &__tabs
+        list-style-type: none
+        padding: 0
+        margin: 0
+        display: flex
+        flex-direction: column
+        margin-top: 85px
+        min-height: 400px
+        justify-content: space-between
+    &__tab
+        color: #7d7d7d
+        font-size: 14px
+        font-weight: 500
+        line-height: 20px
+        text-transform: uppercase
+        margin-left: 50px
+        margin-right: 54px
+        display: flex
+        align-items: center
+        width: 100%
+        cursor: pointer
+        &:last-child
+            margin-bottom: 0
+        &::before
+            content: ''
+            display: block
+            position: absolute
+            width: 6px
+            height: 66px
+            background-color: #e5ebef
+            left: 38px
+        &_active
+            font-weight: 700
+            &::before
+                background-color: #4cb1ff
+    &__content
+        display: none
+        &_active
+            display: flex
+    &__item
+        display: flex
+        border-radius: 4px
+        background-color: #ffffff
+        margin-top: 68px
+        margin-left: 54px
+        max-width: 1072px
+        height: 487px 
+    &__img
+        max-width: 54%
+        object-fit: cover
+    &__descr
+        padding: 74px 29px 95px 61px
+    &__minititle
+        color: #232932
+        font-size: 30px
+        font-weight: 500
+    &__wrapper
+        display: flex
+        align-items: flex-start
+        min-height: 487px
+    &__text
+        p
+            margin-top: 25px
+    &__container
+        display: none

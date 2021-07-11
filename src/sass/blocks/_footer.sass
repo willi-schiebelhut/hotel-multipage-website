@@ -1,0 +1,55 @@
+.footer
+    padding: 31px 40px 26px 40px
+    min-height: 141px
+    background-color: #26292d
+    &__nav
+        display: flex
+        align-items: center
+        justify-content: space-between
+    &__menu
+        display: flex
+        &_item
+            margin-left: 35px
+            
+            &:first-child
+                margin-left: 0
+        &_link
+            color: #ffffff
+            font-size: 14px
+            font-weight: 500
+            text-transform: uppercase
+            cursor: pointer
+            text-decoration: none
+            &::after
+                content: ''
+                display: block
+                width: 15px
+                height: 3px
+                background-color: #4cb1ff
+                transition: 0.4s all
+                margin-top: 9px
+            &:hover
+                    width: 100%
+                    &::after
+                        width: 100%
+    &__social
+        display: flex
+        a
+            margin-right: 23px
+            cursor: pointer
+            &:last-child
+                margin-right: 0
+        &_img
+            width: 37px
+            height: 30px
+        
+    &__copyright
+        display: flex
+        justify-content: center
+        align-items: end
+        color: #ffffff
+        font-family: "Gotham Pro"
+        font-size: 12px
+        font-weight: 400
+        letter-spacing: -0.12px
+        margin-top: 47px

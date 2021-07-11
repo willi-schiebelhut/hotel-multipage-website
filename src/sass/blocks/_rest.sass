@@ -1,0 +1,60 @@
+.rest
+    min-height: 731px
+    padding: 182px 45px 81px 38px
+    &__wrapper
+        display: flex
+        
+    &__inner
+        display: flex
+        justify-content: flex-end
+        position: relative
+        max-width: 50%
+        &::before
+            content: ''
+            display: block
+            position: absolute
+            left: -30px
+            top: -30px
+            width: 137px
+            height: 149px
+            background-color: #e5ebef
+        &::after
+            content: ''
+            display: block
+            position: absolute
+            right: -30px
+            bottom: -30px
+            width: 137px
+            height: 149px
+            background-color: #e5ebef
+            z-index: -1
+        img
+            width: 100%
+            height: 100%
+            object-fit: cover
+    &__descr
+        max-width: 40%
+        margin-right: 141px
+    p
+        color: #232932
+        font-size: 30px
+        font-weight: 500
+        span
+            font-weight: 700
+    .slick-dots
+        display: flex
+        justify-content: center
+        padding-left: 0
+        position: absolute
+
+    .slick-dots li
+            list-style: none
+            margin: 0 10px
+    .slick-dots>li>button
+            font-size: 0
+            width: 7px
+            height: 7px
+            border: none
+            
+    .slick-active>li>button
+            background-color: #4cb1ff

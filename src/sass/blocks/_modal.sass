@@ -1,0 +1,81 @@
+.overlay
+    display: none
+    position: fixed
+    width: 100%
+    height: 100%
+    top: 0
+    background-color: rgba(0, 0, 0, 0.7)
+    z-index: 99
+
+.modal
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+    height: auto
+    width: 700px
+    background: url(../img/section_3_bg.jpg) center (center / cover) no-repeat
+    box-shadow: 0 9px 95px rgba(65, 65, 65, 0.36)
+    border-radius: 10px
+    background-color: #ffffff
+    padding: 30px
+    &__close
+        position: absolute
+        top: 0
+        right: 0
+        width: 54px
+        height: 54px
+        display: flex
+        justify-content: center
+        align-items: center
+        cursor: pointer
+    &__multiply
+        display: block
+        position: absolute
+        font-size: 51px
+        color: #000000
+    &__title
+        color: #000000
+        font-size: 29px
+        font-weight: 700
+        line-height: 35px
+        margin-top: 25px
+        &-thanks
+            font-size: 18px
+            color: #000000
+            font-weight: 700
+            position: absolute
+            left: 10%
+            top: 37%
+    input
+        padding: 16px
+    &__thanks
+        display: flex
+        justify-content: start
+        align-items: center
+        min-height: 297px
+        width: 558px
+        padding-left: 40px
+        background: url(../img/section_3_bg.jpg) center (center / cover) no-repeat
+        box-shadow: 0 9px 95px rgba(65, 65, 65, 0.36)
+        border-radius: 10px
+        background-color: #ffffff
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%,-50%)
+.error
+    border: 1px solid red
+    text-align: center
+label.error
+    border: none
+    color: #000000
+    font-family: Montserrat
+    font-size: 14px
+    font-weight: 500
+    line-height: 22px
+    margin-top: 17px
+    display: block
+
+#consultation, #thanks
+    display: none

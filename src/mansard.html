@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Номер Мансарда в горном отеле IZUMY TAU</title>
+    <meta name="description" content="Комфортный и уютный номер для двоих. Проведите незабываемый отдых в горах Южного Казахстана! Скидки на номера в будние дни, виды номеров для двоих и всей семьи!">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <section class="promo_room1">
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="container">
+            <header class="header">
+                <div class="promo_page__logo">
+                    <img src="icons/logo.png" alt="logo" class="promo_room1__logo_img">
+                </div>
+            </header>
+            <main class="main">
+                <div class="main__wrapper">
+                    <h1 class="main__title">Номер<br><span>Мансарда</span></h1>
+                </div>
+            </main>
+        </div>
+        </div>
+    </section>
+
+    <section class="info">
+        <div class="container">
+            <div class="info__descr">
+                <div class="info__text">Уютный мансардный номер позволит отдохнуть вдвоём, наслаждаясь прекрасными видами на горы. В вашем распоряжении полноценная жилая площадь и комфортный отдых.</div>
+                <div class="info__price">Цена:
+                    <span>25 000 тенге</span> в сутки
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="questions">
+        <div class="container">
+            <h2 class="questions__title">Информация</h2>
+            <div class="questions__wrapper">
+                    <div class="questions__item">
+                    <div class="questions__descr"><div class="questions__minititle">Заезд и выезд</div>
+                    <div class="questions__text">Заезд в 14:00, выезд в 12:00
+                    </div></div>
+                </div>
+                <div class="questions__item">
+                    <div class="questions__minititle">Интернет</div>
+                    <div class="questions__text">Wi-Fi предоставляется в общественных зонах бесплатно.
+                    </div>
+                </div>
+                <div class="questions__item">
+                    <div class="questions__minititle">Услуги по парковке автомобилей</div>
+                    <div class="questions__text">Бесплатная Частная парковка на месте.
+                    </div>
+                </div>
+                <div class="questions__item">
+                    <div class="questions__minititle">Размещение домашних животных</div>
+                    <div class="questions__text">Размещение домашних животных
+                        не допускается.</div>
+                </div>
+                <div class="questions__item">
+                    <div class="questions__minititle">Оплата</div>
+                    <div class="questions__text">Наличными, картами MasterCard, Visa, Maestro</div>
+                </div>
+                <div class="questions__item">
+                    <div class="questions__minititle">Дополнительные услуги</div>
+                    <div class="questions__text">Сауна, велосипеды, топчаны, прогулка на лошади</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery">
+        <div class="container">
+            <h2 class="gallery__title">Фото номера</h2>
+            <div class="gallery__wrapper">
+                <a data-fancybox="gallery" href="img/pages/mansard/mansard (1).jpg" class="gallery__full">
+                    <img src="img/pages/mansard/mansard (1).jpg" alt="mansard" class="gallery__photo">
+                </a>
+    
+                <a data-fancybox="gallery" href="img/pages/mansard/mansard (2).jpg" class="gallery__full">
+                    <img src="img/pages/mansard/mansard (2).jpg" alt="mansard" class="gallery__photo">
+                </a>
+    
+                <a data-fancybox="gallery" href="img/pages/mansard/mansard (3).jpg" class="gallery__full">
+                    <img src="img/pages/mansard/mansard (3).jpg" alt="mansard" class="gallery__photo">
+                </a>
+    
+                
+    
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="consultation" id="reserv-form">
+        <div class="container">
+            <h2 class="consultation__title">Заполните форму</h2>
+            <div class="consultation__wrapper">
+                <form action="mailer/smart.php" method="POST" id="reserv" class="reserv-form">
+                    <label for="in" class="inlabel">Выберите дату заезда</label>
+                    <input placeholder="Введите дату заезда" type="date" id="in" name="datein">
+                    <label for="out" class="outlabel">Выберите дату отъезда</label>
+                    <input placeholder="Введите дату заезда" type="date" id=out name="dateout">
+                    <select required name="check">
+                        <option value="">Выберите тип номера</option>
+                        <option value="Мансарда">Мансарда</option>
+                        <option value="Семейный">Семейный</option>
+                        <option value="Стандарт">Стандарт</option>
+                        <option value="Полулюкс">Полулюкс</option>
+                        <option value="Люкс">Люкс</option>
+                    </select>
+                    <input required placeholder="Ваше имя" type="text" name="name">
+                    <input required placeholder="Ваш номер телефона" name="phone">
+                    <button class="consultation__button">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="map">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2960.5001550139505!2d69.9823669156866!3d42.09675795968075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38a8c968aaa65c23%3A0xfd3c1e5478b095c7!2sIzumi%20Tau!5e0!3m2!1sru!2skz!4v1597939022891!5m2!1sru!2skz"
+            width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+            tabindex="0"></iframe>
+        <div class="map__info">
+            <div class="map__title">Контакты</div>
+            <div class="map__subtitle">Горный отель «IZUMY TAU»</div>
+            <div class="map__wrapper">
+                <a href="https://goo.gl/maps/5Q6bU8yZpWvHBMb37" class="map__addr">ул. Казахстанская, Кабыланбек</a>
+                <a href="tel:+77760006886" class="map__phone">8 (776) 000 6886</a>
+                <div class="map__schedule">Круглосуточно</div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__nav">
+                <div class="footer__social">
+                    <a href="https://www.instagram.com/izumytau/" target="_blank" class="footer__insta"><img src="icons/002-instagram.svg" alt="insta"
+                            class="footer__social_img"></a>
+                    <a href="https://www.facebook.com/izumytau/" class="footer__facebook" target="_blank"><img src="icons/001-facebook.svg" alt="facebook"
+                            class="footer__social_img"></a>
+                    <a href="https://wa.me/77760006886" class="footer__whatsapp" target="_blank"><img src="icons/whatsapp-brands.svg" alt="whatsapp"
+                            class="footer__social_img"></a>
+                </div>
+                <div class="footer__menu">
+                    <div class="footer__menu_item">
+                        <a href="index.html#rooms" target="_blank" class="footer__menu_link">Номера</a>
+                    </div>
+                    <div class="footer__menu_item">
+                        <a href="index.html#events" target="_blank" class="footer__menu_link">Компаниям</a>
+                    </div>
+                    <div class="footer__menu_item">
+                        <a href="index.html#specials" target="_blank" class="footer__menu_link">Акции</a>
+                    </div>
+                    <div class="footer__menu_item">
+                        <a href="index.html#feedback" target="_blank" class="footer__menu_link">Отзывы</a>
+                    </div>
+                </div>
+            </div>
+            <p class="footer__copyright">© 2020 Izumy Tau</p>
+        </div>
+    </footer>
+
+    <div class="overlay">
+        <div class="modal" id="consultation">
+            <div class="modal__close">
+                <div class="modal__multiply">&times;</div>
+            </div>
+            <div class="modal__title">Оставьте свои данные<br>
+                и мы свяжемся с вами!</div>
+
+            <form action="smart.php" class="modal-form">
+                <div class="modal-form-name">
+                    <input name="name" type="text" placeholder="Ваше имя">
+                </div>
+                <div class="modal-form-phone">
+                    <input name="phone" placeholder="Ваш телефон">
+                </div>
+                <button class="button_submit">Отправить</button>
+            </form>
+
+        </div>
+
+        <div class="modal modal__thanks" id="thanks">
+            <div class="modal__thanks_wrapper"></div>
+            <div class="modal__title-thanks">Ваша заявка принята!<br>
+                Мы скоро вам перезвоним.</div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

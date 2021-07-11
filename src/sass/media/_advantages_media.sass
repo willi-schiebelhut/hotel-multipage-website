@@ -1,0 +1,127 @@
+@media (max-width: 1200px)
+
+    .advantages
+        min-height: 830px
+        padding: 40px
+        &__item
+            flex-direction: column
+            height: 510px
+        &__img
+            max-height: 40%
+            max-width: 100%
+            object-fit: cover
+        &__descr
+            padding: 15px 30px 30px 30px
+            margin-top: 25px
+@media (max-width: 991px)
+    .advantages
+        min-height: 800px
+        &__title
+            font-size: 35px
+        &__item
+            height: 500px
+        &__descr
+            margin-top: 0
+        &__minititle
+            font-size: 20px
+        p
+            font-size: 14px
+            margin-top: 15px
+        &__tabs
+            min-height: 0
+        &__tab
+            margin-bottom: 20px
+            line-height: 17px
+            font-size: 13px
+@media (max-width: 767px)
+    .advantages
+        &__title
+            font-size: 25px
+        &__wrapper
+            flex-direction: column
+        &__tabs
+            flex-direction: row
+            flex-wrap: wrap
+            max-width: 100%
+            margin-top: 60px
+            br
+                display: none
+        &__tab
+            max-width: 36%
+            margin-left: 45px
+            margin-right: 20px
+            margin-bottom: 6px
+            font-size: 12px
+            &::before
+                display: none
+            &_active
+                color: #4cb1ff
+        &__item
+            margin-left: 0
+            margin-top: 20px
+        &__descr
+            padding: 50px 30px 30px 30px
+
+@media (max-width: 576px)
+    .advantages
+        &__tab
+            justify-content: center
+            margin-left: 0
+            margin-right: 0
+            max-width: 100%
+            padding-top: 5px
+            padding-bottom: 5px
+            text-align: center
+
+@media (max-width: 425px)
+    .advantages
+        padding: 45px 10px 35px 10px
+        min-height: 740px
+        &__wrapper
+            display: none
+        &__title
+            font-size: 30px
+        &__subtitle
+            margin-top: 22px
+        &__tabs
+            display: none
+        &__content
+            display: none
+        &__container
+            width: 100%
+            display: flex
+            justify-content: center
+        &__more
+            display: flex
+            align-items: center
+            margin-top: 7px
+            color: #232932
+            font-size: 14px
+            font-weight: 700
+            line-height: 20px
+            text-transform: uppercase
+            padding: 7px
+            max-width: 300px
+            height: 65px
+            background-color: #ffffff
+            border-left: 4px solid #4cb1ff
+            &-wrapper
+                margin-top: 50px
+            &-text
+                font-size: 16px
+                font-weight: 400
+                margin-top: 20px
+                margin-bottom: 10px
+                color: #232932
+                max-width: 300px
+                background-color: rgba(255, 255, 255, 0.8)
+                padding: 5px
+
+                span
+                    color: #4cb1ff
+                    font-weight: 500
+summary::-webkit-details-marker
+        color: #4cb1ff
+        transition: .4s all
+details
+    display: block

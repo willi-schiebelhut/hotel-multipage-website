@@ -1,0 +1,97 @@
+.about
+    padding: 0 45px 99px 40px
+    min-height: 676px
+    &__wrapper
+        display: flex
+        align-items: center
+    &__descr
+        max-width: 49%
+        margin-top: 149px
+        margin-right: 114px
+    &__title
+        color: #232932
+        font-size: 35px
+        font-weight: 700
+    &__text
+        color: #232932
+        font-size: 16px
+        font-weight: 400
+        span
+            font-weight: 500
+        p
+            margin-top: 30px
+            line-height: 22px
+    &__link
+        text-decoration: none
+        color: #4cb1ff
+        cursor: pointer
+    &__inner
+        display: flex
+        justify-content: flex-end
+        max-width: 49%
+        height: 30%
+        margin-top: 109px
+        position: relative
+        &::before
+            content: ''
+            display: block
+            position: absolute
+            left: -25px
+            top: -7%
+            width: 137px
+            height: 149px
+            background-color: #e5ebef
+        &::after
+            content: ''
+            display: block
+            position: absolute
+            right: -25px
+            bottom: -7%
+            width: 137px
+            height: 149px
+            background-color: #e5ebef
+            z-index: -1
+        img
+            width: 100%
+            object-fit: cover
+.slick-prev
+        position: absolute
+        top: 50%
+        transform: translateY(-50%)
+        left: -45px
+        border: none
+        background-color: #fff
+        cursor: pointer
+        img
+            width: 19px
+            height: 37px
+.slick-next
+        position: absolute
+        top: 50%
+        transform: translateY(-50%)
+        right: -45px
+        border: none
+        background-color: #fff
+        cursor: pointer
+        img
+            width: 19px
+            height: 37px
+.slick-dots
+        display: flex
+        justify-content: center
+        padding-left: 0
+        position: absolute
+        bottom: 0
+        left: 25%
+.slick-dots li
+            list-style: none
+            margin: 0 10px
+.slick-dots>li>button
+            font-size: 0
+            width: 7px
+            height: 7px
+            border: none
+            
+.slick-active>li>button
+            background-color: #4cb1ff
+
